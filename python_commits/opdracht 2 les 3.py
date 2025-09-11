@@ -1,0 +1,5 @@
+Var1 = int(input('variable nummer een '))
+Var2 = int(input('variable nummer twee '))
+Var3 = int(input('variable nummer drie '))
+Gem = int(((Var1 + Var2 + Var3) / 3))
+print(f'Het gemmiddelde van {Var1}, {Var2} en {Var3} is: {Gem}')
