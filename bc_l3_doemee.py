@@ -5,8 +5,8 @@ print(0/25)
 naam = input('wat is jouw naam?')
 
 # we gaan hier een variable inbouwen
-print('Hallo ' + naam + '.')
+print('Hallo ' + naam + ', ik leer nu programmeren.')
 
-woord = input('Leuk je te ontmoeten, ' + naam + '. Geef mij een woord, en ik vertel hoeveel tekens erin zitten!')
+woord = input('Geef mij een woord, en ik vertel hoeveel tekens erin zitten!')
 aantal_tekens = len(woord)
 print(f"Het woord is: {woord} en bestaat uit {aantal_tekens} tekens.")
